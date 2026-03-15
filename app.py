@@ -6,36 +6,37 @@ st.set_page_config(page_title="AI Meme Generator", layout="wide")
 # Custom CSS
 st.markdown("""
 <style>
+
 .main-title {
     font-size:40px;
     font-weight:bold;
     text-align:center;
-    color:#FF4B4B;
+    color:#ff4b4b;
 }
 
 .subtitle{
     text-align:center;
-    color:gray;
+    color:#555;
     margin-bottom:30px;
 }
 
 .upload-box{
     padding:20px;
     border-radius:12px;
-    background-color:#f5f5f5;
+    background-color:#f0f2f6;
 }
 
 .caption-box{
     padding:15px;
     border-radius:10px;
-    background-color:#fafafa;
+    background-color:#ffffff;
     border:1px solid #ddd;
     margin-bottom:10px;
+    color:#000000;      /* 🔴 Fix: text color */
+    font-size:18px;
+    font-weight:500;
 }
 
-.generate-btn{
-    width:100%;
-}
 </style>
 """, unsafe_allow_html=True)
 
